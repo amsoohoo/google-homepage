@@ -56,16 +56,17 @@ body {
 	padding-bottom: 8px;
 }
 
-#footer{
+#footer {
 	background-color: #f2f2f2;
 	border-top: 1px solid #e4e4e4;
-	line-height: 40px;
-	min-width: 980px;
+	min-width: 100%;
+	line-height: 20px;
+	position: absolute;
+	bottom: 0;
 }
 
 .bottom_right {
 	float:right;
-	margin-right: 30px;
 }
 
 .bottom_left {
@@ -75,4 +76,15 @@ body {
 ul, li {
 	display: inline-block;
 }
+.bottom_left li {
+	margin-right: 30px;
+}
 
+.bottom_right li {
+	margin-right: 30px;
+}
+
+a {
+	text-decoration: none;
+	hover: underline;
+}
